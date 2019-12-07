@@ -130,3 +130,4 @@ sears-master/translation_models/*
 !sears-master/saved_pickles/*.pickle
 Text-Classification/glove
 Text-Classification/20_newsgroup
+*.h5py
