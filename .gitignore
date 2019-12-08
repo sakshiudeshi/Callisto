@@ -123,11 +123,11 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-*.pickle
+#*.pickle
 *.mat
 SVHN/data/SVHN_grey.h5
 sears-master/translation_models/*
 !sears-master/saved_pickles/*.pickle
 Text-Classification/glove
 Text-Classification/20_newsgroup
-*.h5py
+#*.h5py
