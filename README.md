@@ -32,6 +32,16 @@ Please change 'MINI_DATASET_TEST' to False if you want to run the full datasets.
 
 
 ### Data Quality
+For each dataset we try to find low entropy (this means that the model is fairly certain of the prediction), but the prediction 
+for these images is incorrect. Intuitively, this may mean that the data may be mislabelled [1]. 
+
+We also highlight some prominent examples of low data quality in each notebool=k 
 
 ### Auxillary Files
   For the SVHN dataset, the dataset *needs* to be downloaded. It can be found [here](https://drive.google.com/file/d/1Zxz1QC5ZD6eREwLfjv1NVdUaZxV0hp4U/view). Please make a folder 'data' under SVHN. 
+  
+ 
+ #### References
+ 
+[1] Jiangwen Sun, Feng-ying Zhao, Chong-Jun Wang, and Shifu Chen. Identifying and correcting mislabeled training instances. In Future Generation Communication and Networking, FGCN 2007, Ramada Plaza Jeju, Jeju-Island, Korea, December 6-8, 2007, Proceedings, pages 244 250, 2007. URL: https://doi.org/10.1109/FG
+
