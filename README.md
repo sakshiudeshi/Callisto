@@ -35,7 +35,7 @@ Please change 'MINI_DATASET_TEST' to False if you want to run the full datasets.
 For each dataset we try to find low entropy (this means that the model is fairly certain of the prediction), but the prediction 
 for these images is incorrect. Intuitively, this may mean that the data may be mislabelled [1]. 
 
-We also highlight some prominent examples of low data quality in each notebool=k 
+We also highlight some prominent examples of low data quality in each notebook 
 
 ### Auxillary Files
   For the SVHN dataset, the dataset *needs* to be downloaded. It can be found [here](https://drive.google.com/file/d/1Zxz1QC5ZD6eREwLfjv1NVdUaZxV0hp4U/view). Please make a folder 'data' under SVHN. 
