@@ -1,4 +1,4 @@
-# Callisto: Entropy based test case generation and data quality detection for Machine Learning Systems
+# Callisto: Entropy based test generation and data quality detection for Machine Learning Systems
 
 ### Dependencies
 * Python 3
