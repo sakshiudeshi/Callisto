@@ -18,11 +18,14 @@ In case of any unforseen dependencies, a detailed ```pip freeze``` of the system
 
 
 ### Organisation 
-Each folder in Callisto represents a dataset under test. We have four datasets under test namely:
+Each folder below represents the dataset under test. We have four datasets under test namely:
 * MNIST-Digit
 * Fashion MNIST
 * CIFAR-10
 * SVHN
+
+We also have a ``User Study`` folder which has the user study data in .csv format and accompanying scripts to analyze the
+same.
 
 ### Test Generation
 For each dataset there are four transformations we experiment on. These are Panning, 2D Rotation, Affine and Perspective. 
@@ -38,8 +41,18 @@ for these images is incorrect. Intuitively, this may mean that the data may be m
 We also highlight some prominent examples of low data quality in each notebook 
 
 ### Auxillary Files
-  For the SVHN dataset, the dataset *needs* to be downloaded. It can be found [here](https://drive.google.com/file/d/1Zxz1QC5ZD6eREwLfjv1NVdUaZxV0hp4U/view). Please make a folder 'data' under SVHN. 
+  For the SVHN dataset, the dataset *needs* to be downloaded. It can be found [here](https://drive.google.com/file/d/1Zxz1QC5ZD6eREwLfjv1NVdUaZxV0hp4U/view). Please make a folder 'data' under SVHN.
   
+#### Auxilarry Data
+
+Consolidated test generation + Test data - https://docs.google.com/spreadsheets/d/1FIYf7CeOIuPmZBWR9B1YZi02qso9plWzGSUu6olZSFA/edit#gid=1182530912
+
+User Study Survey (a Google Account is needed to see the survey) - https://forms.gle/Fprk2pQ9Bk58vi7t9
+It is important to note that we present the results from only the first three questions from Section 1 to 4. 
+
+User Study Survey Data - https://docs.google.com/spreadsheets/d/1-5JouWM8o_i64jli8VkmLqo-EHxKcKCSjUIU757bMII/edit?usp=sharing
+
+
  
  #### References
  
