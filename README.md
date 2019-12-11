@@ -1,5 +1,15 @@
 # Callisto: Entropy based test generation and data quality assessment for Machine Learning Systems
 
+Callisto is a novel test generation and data quality assessment framework. To the best of our knowledge, Callisto is the first 
+blackbox framework to leverage the uncertainty in the prediction and systematically generate new test cases for ML classifiers. 
+Our evaluation of Callisto on four real world data sets reveals thousands of errors. We also show that leveraging the 
+uncertainty in prediction can increase the number of erroneous test cases up to a factor of 20, as compared to when no such 
+knowledge is used for testing.
+
+Callisto has the capability to detect low quality data in the datasets that may contain mislabelled data. We conduct and 
+present an extensive user study to validate the results of Callisto on identifying low quality data from four state-of-the-art 
+real world datasets.
+
 ### Dependencies
 * Python 3
 * Keras
