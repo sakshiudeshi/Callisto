@@ -27,6 +27,13 @@ In case of any unforseen dependencies, a detailed ```pip freeze``` of the system
 [here](https://docs.google.com/document/d/1Cbcfiv3Y7Fz3jKcwv-h2EWLBY37orPuwbflp_C8P2ok/edit?usp=sharing) 
 
 
+### Usage
+
+* Please ensure all the dependencies are correctly installed. To ensure this, you may run the pre-trained models
+* Add your own model to the ```models``` folder in the correct folder 
+* Change the ```model1_file``` variable in the Test Generation and Data Quality ```ipynb``` file
+* One can run the files to find the corresponding errors and data quality issues
+
 ### Organisation 
 Each folder below represents the dataset under test. We have four datasets under test namely:
 * MNIST-Digit
