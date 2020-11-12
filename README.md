@@ -57,10 +57,10 @@ for these images is incorrect. Intuitively, this may mean that the data may be m
 
 We also highlight some prominent examples of low data quality in each notebook 
 
-### Auxillary Files
+### Auxiliary Files
   For the SVHN dataset, the dataset *needs* to be downloaded. It can be found [here](https://drive.google.com/file/d/1Zxz1QC5ZD6eREwLfjv1NVdUaZxV0hp4U/view). Please make a folder 'data' under SVHN.
   
-#### Auxilarry Data
+#### Auxiliary Data
 
 Consolidated test generation + Test data - https://docs.google.com/spreadsheets/d/1FIYf7CeOIuPmZBWR9B1YZi02qso9plWzGSUu6olZSFA/edit#gid=1182530912
 
